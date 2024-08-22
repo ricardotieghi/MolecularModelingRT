@@ -4,23 +4,23 @@ Authors: Name LastNames
 
 Notes from Authors: This tempate is inspired by Volkamerlab's [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd/tree/master) talktorial templates.
 
-## Aims of the Lecture
+## Overview
 
 Short summary of the lecture.
 
-### Contents in Theory
+## Lecture Structure
 
-Table of contents for Theory sections. These points should be in sync with theory titles in the lecture notebook.
+### Subtitles Here
 
-* Lecture Template
+- **point 1**: explanation for point 1
+- **point 2**: explanation for point 2
 
-### Contents in Practice
+## Learning Outcomes 
 
-Table of contents for Practical section. These points should be in sync with practical titles in the lecture notebook.
+By the end of this lecture, participants will:
+- learn a simple lecture template
 
-* Making lecture outline in markdown
-
-### Refernces
+## References and Resources 
 
 * Papers
 * Useful Resources
