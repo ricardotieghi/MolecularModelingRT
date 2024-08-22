@@ -18,16 +18,16 @@ Note that I used ChatGPT to format and summarize materials within the repository
 
 ### Instructor
 
-**Name:** Alexander Tropsha, PhD 
-**Office Location:** 331 Beard Hall 
-**Office Hours:** Fixed time on Zoom 
-**Phone:** 919-966-2955 
+**Name:** Alexander Tropsha, PhD\
+**Office Location:** 331 Beard Hall\
+**Office Hours:** Fixed time on Zoom\
+**Phone:** 919-966-2955\
 **Email:** alex_tropsha@email.unc.edu
 
 ### Teaching Assistant
 
-**Name:** Enes Kelestemur 
-**Office Hours:** Zoom by Appointment 
+**Name:** Enes Kelestemur\
+**Office Hours:** Zoom by Appointment\
 **Email:** enesk@email.unc.edu
 
 ### Course Description
