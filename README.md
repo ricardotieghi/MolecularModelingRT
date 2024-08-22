@@ -2,7 +2,7 @@
 
 Welcome to the Molecular Modeling class repository! This repository contains all the materials, assignments, and resources you will need for the course. 
 
-Note that I used ChatGPT to format materials within the repository.
+Note that I used ChatGPT to format and summarize materials within the repository.
 
 ## Table of Contents
 
@@ -18,21 +18,17 @@ Note that I used ChatGPT to format materials within the repository.
 
 ### Instructor
 
-**Name:** Alexander Tropsha, PhD
-##
-**Office Location:** 331 Beard Hall  
-##
-**Office Hours:** Fixed time on Zoom
-##
-**Phone:** 919-966-2955
-##
+**Name:** Alexander Tropsha, PhD 
+**Office Location:** 331 Beard Hall 
+**Office Hours:** Fixed time on Zoom 
+**Phone:** 919-966-2955 
 **Email:** alex_tropsha@email.unc.edu
 
 ### Teaching Assistant
 
-**Name:** Enes Kelestemur  
-**Office Hours:** Zoom by Appointment  
-**Email:** enesk@email.unc.edu  
+**Name:** Enes Kelestemur 
+**Office Hours:** Zoom by Appointment 
+**Email:** enesk@email.unc.edu
 
 ### Course Description
 
