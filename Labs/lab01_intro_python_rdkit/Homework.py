@@ -21,7 +21,6 @@ everyones_favorite = 'CN1C=NC2=C1C(=O)N(C(=O)N2C)C'
 ## Your code here
 # TODO: Import the necessary modules from rdkit
 from rdkit import Chem
-from rdkit.Chem import Draw
 from rdkit.Chem import Descriptors
 
 # TODO: Write a function that takes a SMILES string as input 
@@ -31,23 +30,23 @@ from rdkit.Chem import Descriptors
 # {'Molecular weight': 194.19, 'LogP': 0.5, ...}
 def get_my_properties(smiles: str) -> dict:
     properties = {}
-    for i in range(16): # Your code here
-        mol = Chem.MolFromSmiles(smiles)
-        properties['Molecular weight'] = Descriptors.MolWt(mol)
-        properties['LogP'] = Descriptors.MolLogP(mol)
-        properties['HBA'] = Descriptors.NumHAcceptors(mol)
-        properties['HBD'] = Descriptors.NumHDonors(mol)
-        properties['TPSA'] = Descriptors.TPSA(mol)
-        properties['Complexity'] = Descriptors.FpDensityMorgan1(mol)
-        properties['Ring count'] = Descriptors.RingCount(mol)
-        properties['Rotatable bonds'] = Descriptors.NumRotatableBonds(mol)
-        properties['Aromatic rings'] = Descriptors.NumAromaticRings(mol)
-        properties['Heavy atoms'] = Descriptors.HeavyAtomCount(mol)
-        properties['Heteroatoms'] = Descriptors.NumHeteroatoms(mol)
-        properties['Molecular volume'] = Descriptors.MolMR(mol)
-        properties['Fraction Csp3'] = Descriptors.FractionCSP3(mol)
-        properties['Number Valence Electrons'] = Descriptors.NumValenceElectrons(mol)
-        properties['Number Saturated Carbocycles'] = Descriptors.NumSaturatedCarbocycles(mol)
+    mol = Chem.MolFromSmiles(smiles)
+    properties['Molecular weight'] = Descriptors.MolWt(mol)
+    properties['LogP'] = Descriptors.MolLogP(mol)
+    properties['HBA'] = Descriptors.NumHAcceptors(mol)
+    properties['HBD'] = Descriptors.NumHDonors(mol)
+    properties['TPSA'] = Descriptors.TPSA(mol)
+    properties['Complexity'] = Descriptors.FpDensityMorgan1(mol)
+    properties['Ring count'] = Descriptors.RingCount(mol)
+    properties['Rotatable bonds'] = Descriptors.NumRotatableBonds(mol)
+    properties['Aromatic rings'] = Descriptors.NumAromaticRings(mol)
+    properties['Heavy atoms'] = Descriptors.HeavyAtomCount(mol)
+    properties['Heteroatoms'] = Descriptors.NumHeteroatoms(mol)
+    properties['Molecular volume'] = Descriptors.MolMR(mol)
+    properties['Fraction Csp3'] = Descriptors.FractionCSP3(mol)
+    properties['Number Valence Electrons'] = Descriptors.NumValenceElectrons(mol)
+    properties['Number Saturated Carbocycles'] = Descriptors.NumSaturatedCarbocycles(mol)
+    
     return properties
 
 
